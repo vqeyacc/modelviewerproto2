@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <script>
+<!--   <script>
     navigator.geolocation.getCurrentPosition(getLatLon);
     function getLatLon(position) {
       var latitude = position.coords.latitude;
@@ -10,7 +10,7 @@
       var entity = document.getElementById("textLatLon");
       entity.gps-entity-place="latitude: " + latitude + "; longitude:" + longitude + ";";
     }
-  </script>
+  </script> -->
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,7 +31,7 @@
         value="This content will always face you."
         look-at="[gps-camera]"
         scale="120 120 120"
-        gps-entity-place="latitude: 0; longitude: 0;"
+        gps-entity-place="latitude: 40.829008; longitude: -74.401137;"
       ></a-text>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
